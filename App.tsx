@@ -1,20 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import {style} from "./styles"
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+  return <View style={style.container}>
+    
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+    {/*-----↓ Botões ↓-----*/}
+    <TouchableOpacity onPress={()=>{}} activeOpacity={0.75} style={style.buttonLogin}>
+      <Text style={style.textButtonLogin}>Login</Text>
+    </TouchableOpacity>
+
+    <TouchableOpacity onPress={()=>{}} activeOpacity={0.75} style={style.buttonLocalConnec}>
+      <Text>Local Connection</Text>
+    </TouchableOpacity>
+  </View>
+}
