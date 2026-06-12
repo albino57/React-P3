@@ -6,7 +6,6 @@ export const style = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: "#ffffff",
-        paddingTop: 60,
         paddingHorizontal: 30,
     },
 
@@ -38,6 +37,10 @@ export const style = StyleSheet.create({
     textFooter2: {
         color: "#288cff",
         fontSize: 16,
+    },
+    textLink: {
+        color: '#0066cc',
+        textDecorationLine: 'underline',
     },
 
 
@@ -97,14 +100,14 @@ export const style = StyleSheet.create({
         paddingTop: 45,
     },
 
-    
-    dropdownMain:{
+
+    dropdownMain: {
         flexDirection: 'row',
         alignItems: 'center',
         alignSelf: 'stretch',
         marginTop: 30,
     },
-    dropdownMain2:{
+    dropdownMain2: {
         flexDirection: 'row',
         alignItems: 'center',
         alignSelf: 'stretch',
@@ -131,6 +134,32 @@ export const style = StyleSheet.create({
     },
     dropdownItemText: {
         fontSize: 16,
+        color: '#595959',
+    },
+
+    checkboxSection: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        alignSelf: 'stretch',
+        marginTop: 20,
+        marginBottom: 10,
+    },
+    checkboxSection2: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        alignSelf: 'stretch',
+        marginBottom: 30,
+    },
+    checkbox: {
+        width: 20,
+        height: 20,
+        borderRadius: 4,
+        borderColor: '#8a8a8a',
+        backgroundColor: '#ffffff',
+    },
+    checkboxText: {
+        marginLeft: 10,
+        fontSize: 14,
         color: '#595959',
     },
 })
