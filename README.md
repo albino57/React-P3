@@ -9,8 +9,8 @@ Este é um projeto de tela de login moderno desenvolvido em **React Native** uti
 Abaixo estão as imagens comparativas entre a página original que serviu de inspiração e o resultado desenvolvido neste projeto.
 
 <div style="display: flex; flex-direction: row; gap: 10px;">
-  <img src="TelaClone.jpeg" alt="Página original do Solar Guardian para o clone" width="45%" />
-  <img src="TelaOriginal.jpeg" alt="Resultado final do clone" width="45%" />
+  <img src="TelaOriginal.jpeg" alt="Página original do Solar Guardian para o clone" width="35%" />
+  <img src="TelaClone.jpeg" alt="Resultado final do clone" width="35%" />
 </div>
 
 *À esquerda: Página Original (Referência) | À direita: Nova Página (Projeto Desenvolvido)*
