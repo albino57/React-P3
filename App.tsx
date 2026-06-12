@@ -61,7 +61,7 @@ export default function App() {
       <View style={style.dropdownWrapper}>
         <Dropdown
           style={style.dropdown}
-          containerStyle={style.dropdownMenuList} // Estilo da caixinha que flutua
+          containerStyle={style.dropdownMenuList}
           data={locationData}
           labelField="label"
           valueField="value"
@@ -84,7 +84,7 @@ export default function App() {
       <View style={style.dropdownWrapper2}>
         <Dropdown
           style={style.dropdown}
-          containerStyle={style.dropdownMenuList} // Estilo da caixinha que flutua
+          containerStyle={style.dropdownMenuList}
           data={languegeData}
           labelField="label"
           valueField="value"

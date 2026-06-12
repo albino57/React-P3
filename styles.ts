@@ -111,6 +111,7 @@ export const style = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         alignSelf: 'stretch',
+        marginTop: 10,
     },
 
     dropdownWrapper: {
@@ -118,7 +119,6 @@ export const style = StyleSheet.create({
     },
     dropdownWrapper2: {
         flex: 1,
-        marginTop: 20,
     },
     dropdown: {
         height: 50,
