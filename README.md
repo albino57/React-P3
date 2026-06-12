@@ -2,6 +2,20 @@
 
 Este é um projeto de tela de login moderno desenvolvido em **React Native** utilizando o ecossistema **Expo**. O aplicativo conta com validações dinâmicas, seletores customizados e componentes nativos de formulário.
 
+---
+
+## 📸 Comparação Visual
+
+Abaixo estão as imagens comparativas entre a página original que serviu de inspiração e o resultado desenvolvido neste projeto.
+
+### 1. Página Original (Referência)
+![Página original do Discord para o clone](TelaClone.jpeg)
+
+### 2. Nova Página (Projeto Desenvolvido)
+![Resultado final do clone](TelaOriginal.jpeg)
+
+---
+
 ## 👤 Desenvolvedor
 * **Nome:** [Rafael Albino Ribeiro]
 * **Turma/Disciplina:** [Turma 37 - React Native]
