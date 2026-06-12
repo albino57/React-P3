@@ -10,6 +10,7 @@ export const style = StyleSheet.create({
         paddingHorizontal: 30,
     },
 
+
     textButtonLogin: {
         color: "#ffffff",
         fontSize: 18,
@@ -24,20 +25,21 @@ export const style = StyleSheet.create({
     textInput: {
         fontSize: 16,
     },
-    textSwitchPhone:{
+    textSwitchPhone: {
         color: "#288cff",
         paddingTop: 7,
         alignSelf: 'stretch',
     },
-    textFooter:{
+    textFooter: {
         paddingRight: 25,
         color: "#288cff",
         fontSize: 16,
     },
-    textFooter2:{
+    textFooter2: {
         color: "#288cff",
         fontSize: 16,
     },
+
 
     buttonLogin: {
         backgroundColor: "#288cff",
@@ -58,11 +60,13 @@ export const style = StyleSheet.create({
         alignSelf: "stretch",
     },
 
+
     image: {
         resizeMode: 'contain',
         width: 450,
         height: 225,
     },
+
 
     lineView: {
         height: 1,
@@ -70,6 +74,12 @@ export const style = StyleSheet.create({
         alignSelf: 'stretch',
         marginTop: 10,
     },
+    lineViewDropDown: {
+        height: 1,
+        backgroundColor: '#cecece58',
+        alignSelf: 'stretch',
+    },
+
 
     View1: {
         flexDirection: 'row',
@@ -85,5 +95,42 @@ export const style = StyleSheet.create({
     ViewFooter: {
         flexDirection: 'row',
         paddingTop: 45,
-    }
+    },
+
+    
+    dropdownMain:{
+        flexDirection: 'row',
+        alignItems: 'center',
+        alignSelf: 'stretch',
+        marginTop: 30,
+    },
+    dropdownMain2:{
+        flexDirection: 'row',
+        alignItems: 'center',
+        alignSelf: 'stretch',
+    },
+
+    dropdownWrapper: {
+        flex: 1,
+    },
+    dropdownWrapper2: {
+        flex: 1,
+        marginTop: 20,
+    },
+    dropdown: {
+        height: 50,
+        backgroundColor: '#fff',
+    },
+    dropdownTextSelected: {
+        fontSize: 16,
+        color: '#7a7a7a',
+    },
+    dropdownMenuList: {
+        borderRadius: 8,
+        backgroundColor: '#ededed',
+    },
+    dropdownItemText: {
+        fontSize: 16,
+        color: '#595959',
+    },
 })
